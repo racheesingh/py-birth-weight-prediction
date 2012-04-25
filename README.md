@@ -9,8 +9,8 @@ Based on the dataset, this algorithm predicts the possibility of low birth weigh
 * History of Hypertension (1 = Yes, 0 = No)
 * Presence of Uterine Irritability (1 = Yes, 0 = No)
 
-Using this feature set (x0, x1 .. x6), I have generated higher order features to get greater accuracy of prediction. I have used Logistic Regression algorithm along with python modules scipy and numpy for this purpose.
-After training on the dataset, I predicted the Low Birth Weight (0 = No, 1 = Yes) for the same data-set and compared it against the actual values. With this I calculated the accuracy of my prediction.
+Using this feature set (x0, x1 .. x6), higher order features were generated to get greater accuracy of prediction. I used Logistic Regression along with python modules scipy and numpy for this purpose.
+After training on the dataset, I predicted the Low Birth Weight (0 = No, 1 = Yes) values for the same data-set and compared it against the actual values. With this the accuracy of prediction was calculated.
 With feature mapping and regularization the algorithm achieved an accuracy of 82.14%.
 
 # Dataset used for Logistic Regression
