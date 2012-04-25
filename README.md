@@ -1,4 +1,4 @@
-## Low Birth Weight Prediction with Machine Learning Algorithms
+# Low Birth Weight Prediction with Machine Learning Algorithms
 Based on the data set, I predict the possibility of low birth weight of a child given the following set of features:
 
 * Age of the Mother in Years
@@ -13,14 +13,14 @@ Using this feature set (x0, x1 .. x6), I have generated higher order features to
 After training on the data-set, I predicted the Low Birth Weight (0 = No, 1 = Yes) for the same data-set and compared it against the actual values. With this I calculated the accuracy of my prediction.
 With feature mapping and regularization the algorithm achieved an accuracy of 82.14%.
 
-## Data-set
-# Source of data
+# Data-set
+## Source of data
         Hosmer and Lemeshow (2000) Applied Logistic Regression: Second
         Edition.  These data are copyrighted by John Wiley & Sons Inc. and must
         be acknowledged and used accordingly.  Data were collected at Baystate
         Medical Center, Springfield, Massachusetts.
 Also look at the data_description for more details.
 
-## Credits
+# Credits
 * Hosmer and Lemeshow for providing the data-set.
 
